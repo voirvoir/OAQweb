@@ -1,0 +1,107 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.back{
+    width: 100%;
+    font-size: 30px;
+}
+.p2{
+    
+    margin: 50px 150px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.p1{
+    margin: 50px 150px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.info{
+    width: 240px;
+}
+.win{
+    font-size: 60px;
+    color: lime
+}
+.lose{
+    font-size: 60px;
+    color: red
+}
+
+.outer-board{
+    display: flex;
+    justify-content: space-around;
+}
+.board{
+    padding: 0px;
+    /* border: 5px solid black; */
+    /* border-radius: 150px; */
+    height: 309px;
+    width: 1048px;
+    background-image: url('board2.png');
+    background-size:contain;
+
+    display: flex;
+    align-items: center;
+}
+
+.nha-dan{
+    width: 720px;
+    display: flex;
+    padding: 8px;
+}
+.nha-quan-l{
+    width: 150px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.nha-quan-r{
+    width: 150px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.o-dan{
+    /* border: 5px solid black; */
+    margin: 4px 7px;
+    height: 132px;
+    width: 132px;
+    /* background-color: lime; */
+    opacity: 0.5;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.o-quan{
+    height: 50px;
+    width: 100px;
+    /* background-color: red; */
+    opacity: 0.5;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.o-quan-dan{
+    height: 128px;
+    width: 128px;
+    /* background-color: yellow; */
+    opacity: 0.5;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.num-inside{
+    font-size: 30px;
+}
+.hide{
+    opacity: 1;
+}
